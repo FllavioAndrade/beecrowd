@@ -12,5 +12,5 @@ Print the message "SOMA" with all the capital letters, with a blank space before
 | ------ | ------ |
 | 30<br>10 | SOMA = 40 |
 | -30<br>10 | SOMA = -20 |
-| 0<br>0 | 0 |
+| 0<br>0 | SOMA = 0 |
 |  |  |
