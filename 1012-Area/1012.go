@@ -18,6 +18,6 @@ func main() {
 	square = math.Pow(b, 2)
 	rectangle = a * b
 
-	fmt.Printf("TRIANGULO: %.3f\nCIRCULO: %.3f\nTRAPEZIO: %.3f\nQUADRADO: %.3f\nRETANGULO: %.3f\n", triangle, circle, trapezium, square, rectangle)
+	fmt.Printf("TRIANGULO: %.3f\nCIRCULO: %.3f\nTRAPEZIO: %.3f\nQUADRADO: %.3f\nRETANGULO: %.3f\n\n", triangle, circle, trapezium, square, rectangle)
 
 }
