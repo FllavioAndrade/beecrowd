@@ -13,7 +13,7 @@ func main() {
 	for i := 0; i < len(banknotes); i++ {
 		notes = int(money / banknotes[i])
 		money = money % banknotes[i]
-		fmt.Printf("%d nota(s) de %d,00\n", notes, banknotes[i])
+		fmt.Printf("%d nota(s) de R$ %d,00\n", notes, banknotes[i])
 	}
 
 }
