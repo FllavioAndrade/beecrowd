@@ -26,7 +26,7 @@ def calc (n1,d1,n2,d2,ope):
             numerator1 = int(numerator1/j)
             denominator1 = int(denominator1/j)
 
-    return numerator, denominator, numerator1, denominator1,      
+    return numerator, denominator, numerator1, denominator1     
 
 
 for i in range(qtd):
