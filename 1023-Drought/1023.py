@@ -12,11 +12,28 @@ def sort(person_in_resident,consume):
     person_in_resident1 = []
     consume1 = []
    
-    for i in range(len(consume)):
-      __doc__  
+    i = 0
+    qtd = 0
+    print(person_in_resident)
+    while i < len(person_in_resident):
+        print(i)
+        qtd = i
+        while (consume[qtd] // person_in_resident[qtd] == consume[qtd+1] //person_in_resident[qtd+1]) and qtd < len(consume)-2: 
+            qtd = qtd+1
+    #        print(qtd,consume[i] // person_in_resident[i] == consume[i+1] //person_in_resident[i+1])
+            print(qtd)
+  #      for j in range(i,qtd,1):
 
+      #      print('a',j)
+      #  print(person_in_resident1)
+    #    consume1.append(consume[qtd+i-1])
+     #   i = i + qtd
+   #     qtd = 1
+    #    print (consume1, person_in_resident1, i)
 
-
+    #return consume1, person_in_resident1
+        i = i+1
+    return 0
 
 N = int(input())
 city = 1
@@ -33,8 +50,11 @@ while (N != 0):
     cons_per_person = sum(consume) / sum(person_in_resident)
 
     print("Cidade# {}:".format(city))
-    for i in range(len(consume)):
-        print("{:d}-{:d}".format(person_in_resident[i],consume[i] //person_in_resident[i]),end=' ')
+
+    
+    b = sort(person_in_resident, consume)
+   # for i in range(len(consume)):
+   #     print("{:d}-{:d}".format(a[i],a[i] //b[i]),end=' ')
     
     print("\nConsumo medio: {:.2f} m3.".format(cons_per_person))
     
